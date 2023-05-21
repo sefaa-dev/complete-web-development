@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      header,
+      footer {
+        background-color: #66347f;
+        color: #ffdd83;
+        padding: 15px;
+      }
+      ul {
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+      }
+      li {
+        padding: 8px;
+        margin-bottom: 8px;
+        background-color: #9e4784;
+        color: #fff;
+      }
+      .col {
+        float: left;
+        padding: 15px 15px 15px 0px;
+      }
+      .right {
+        width: 25%;
+      }
+      .left {
+        width: 75%;
+      }
+      .right li:hover{
+        cursor: pointer;
+        background-color: #66347f ;
+      }
+
+      .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+      }
+      #bu{
+        margin: 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h2>Header</h2>
+    </header>
+    <main class="clearfix">
+      <div class="right col">
+        <ul>
+          <li>Html</li>
+          <li>Css</li>
+          <li>Javascript</li>
+        </ul>
+      </div>
+      <div class="left col">
+        <h2 id="bu">Komple Web Geliştirme Eğitimi</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi natus ab
+          nostrum dolores aliquam iusto tenetur accusamus? Voluptatibus tenetur
+          soluta rerum inventore officiis iure fugit praesentium repellat!
+          Sequi, sunt est?
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
+          ipsam nesciunt veritatis natus. Quod, ratione sapiente excepturi sit
+          explicabo asperiores minus dolorem sed perspiciatis ad? Ex soluta
+          inventore eius consequuntur.
+        </p>
+      </div>
+    </main>
+    <footer>
+      <h2>Footer</h2>
+    </footer>
+  </body>
+</html>
